@@ -1,0 +1,11 @@
+%textos {
+    text-decoration: none;
+    color: rgb(84, 230, 230);
+    font-weight: bold;
+ }
+ .copyright,.label{
+    @extend %textos
+ }
+ .information a{
+   @extend %textos 
+}

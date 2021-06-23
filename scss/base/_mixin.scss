@@ -1,0 +1,10 @@
+@mixin encabezados ($colores) {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: $colores;
+    font-size: 50px;
+}
+.nueva, .text {
+    @include encabezados (black)
+}
